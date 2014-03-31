@@ -29,4 +29,8 @@ parameters:
 Total: 935    Finished: 935    Correct: 687    MicroAVG: 0.734759    MacroAVG: 0.772213
 
 Max Entropy:
+parameters:
+- optimize algorithm: 'iis'
+- max_iter: 80
+
 Total: 935    Finished: 935    Correct: 680    MicroAVG: 0.727273    MacroAVG: 0.757359
