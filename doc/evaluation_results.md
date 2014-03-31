@@ -21,7 +21,12 @@ Naive Bayes:
 Total: 935    Finished: 935    Correct: 665    MicroAVG: 0.711230    MacroAVG: 0.748701
 
 SVM:
-Total: 935    Finished: 935    Correct: 384    MicroAVG: 0.410695    MacroAVG: 0.481148
+parameters:
+- kernel function: 'rbf'
+- C=1000.0
+- gamma=0.0001
+
+Total: 935    Finished: 935    Correct: 687    MicroAVG: 0.734759    MacroAVG: 0.772213
 
 Max Entropy:
 Total: 935    Finished: 935    Correct: 680    MicroAVG: 0.727273    MacroAVG: 0.757359
