@@ -107,10 +107,8 @@ class BaseWSDI(object):
         """
         ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         wsd = cls()
-        # TRAIN_DIR = os.path.join(ROOT, 'train/')
-        # TEST_DIR = os.path.join(ROOT, 'test/')
-        TRAIN_DIR = os.path.join(ROOT, 'features_archive/7-3-2/train/')
-        TEST_DIR = os.path.join(ROOT, 'features_archive/7-3-2/test/')
+        TRAIN_DIR = os.path.join(ROOT, 'train/')
+        TEST_DIR = os.path.join(ROOT, 'test/')
         TEST_NAME_FILE = os.path.join(ROOT, 'test/namefile')
         RESULT_PATH = os.path.join(ROOT, 'result/%s_result.txt' % cls.__name__)
         cls.result_path = RESULT_PATH
